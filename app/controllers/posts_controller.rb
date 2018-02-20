@@ -15,6 +15,10 @@ class PostsController < ApplicationController
     redirect_to post_path(@post)
   end
 
+  def edit
+
+  end
+
   private
 
   def post_params
