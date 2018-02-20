@@ -17,7 +17,9 @@ class AuthorsController < ApplicationController
 
   end
 
-  def 
+  def update
+
+  end
 
   private
 
