@@ -9,6 +9,7 @@
       <% end %>
     </ul>
   </div>
+  <% end %>
   <div class="field <%="field_with_errors" if @post.errors[:name].any? %>">
     <%= label_tag "title", "Title" %>
     <%= text_field_tag "title", @post.title %>
