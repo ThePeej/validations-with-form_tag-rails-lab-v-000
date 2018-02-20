@@ -13,8 +13,11 @@ class AuthorsController < ApplicationController
     redirect_to author_path(@author)
   end
 
-  def update
+  def edit
+
   end
+
+  def 
 
   private
 
